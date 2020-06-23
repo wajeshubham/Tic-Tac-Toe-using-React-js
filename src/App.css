@@ -1,0 +1,36 @@
+body {
+  background-color: #000000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: rgb(255, 216, 143);
+}
+
+.crossicon {
+  font-size: 35px;
+  color: red;
+}
+
+.circleicon {
+  font-size: 35px;
+  color: green;
+}
+
+.penicon {
+  font-size: 35px;
+  color: grey;
+}
